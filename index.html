@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="ru" class="no-js">
+<head>
+    <meta charset="utf-8">
+<title>Тестовое задание</title>
+<meta name="description" content="@@description">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png?v=LbyzJEr3LL">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png?v=LbyzJEr3LL">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png?v=LbyzJEr3LL">
+<link rel="manifest" href="/assets/favicon/site.webmanifest?v=LbyzJEr3LL">
+<link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg?v=LbyzJEr3LL" color="#5bbad5">
+<link rel="shortcut icon" href="/assets/favicon/favicon.ico?v=LbyzJEr3LL">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-config" content="/assets/favicon/browserconfig.xml?v=LbyzJEr3LL">
+<meta name="theme-color" content="#ffffff">
+
+<link rel="stylesheet" href="/assets/build/global.css">
+
+
+
+    <link rel="preload" href="/assets/build/global.css" as="style" onload="this.onload=null;this.rel='stylesheet';">
+
+</head>
+<body>
+    <div class="body">
+        <div class="body__content">
+            <h1 class="title">Объектное хранилище</h1>
+            <div class="subtitle">Храните контент рядом с клиентами в Европе, Азии и США </div>
+            <div class="city-list-wrapper">
+                
+            
+                <ul class="city-list">
+                    <li class="city-item" href="#item-tab1">
+                        <div class="city-item__text">Miami</div>
+                        <img src="/assets/images/1.png" alt="" class="city-item__image">
+                    </li>
+                    <li class="city-item" href="#item-tab2">
+                        <div class="city-item__text">Amsterdam</div>
+                        <img src="/assets/images/2.png" alt="" class="city-item__image">
+                    </li>
+                    <li class="city-item" href="#item-tab3">
+                        <div class="city-item__text">Singapore</div>
+                        <img src="/assets/images/3.png" alt="" class="city-item__image">
+                    </li>
+                    <li class="city-item" href="#item-tab4">
+                        <div class="city-item__text">Luxembourg</div>
+                        <img src="/assets/images/4.png" alt="" class="city-item__image">
+                    </li>
+
+                </ul>
+                <div class="slider-prev">
+                    <?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 9.3 17" style="enable-background:new 0 0 9.3 17;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#ffffff;}
+</style>
+<path class="st0" d="M0.6,17c-0.1,0-0.3,0-0.4-0.1c-0.2-0.2-0.2-0.5,0-0.7l7.7-7.7L0.2,0.9c-0.2-0.2-0.2-0.5,0-0.7
+	C0.3,0,0.8,0,0.9,0.1l8.4,8.4l-8.4,8.4C0.8,17,0.6,17,0.6,17z"/>
+</svg>
+
+                </div>
+                <div class="slider-next">
+                    <?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 9.3 17" style="enable-background:new 0 0 9.3 17;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#ffffff;}
+</style>
+<path class="st0" d="M0.6,17c-0.1,0-0.3,0-0.4-0.1c-0.2-0.2-0.2-0.5,0-0.7l7.7-7.7L0.2,0.9c-0.2-0.2-0.2-0.5,0-0.7
+	C0.3,0,0.8,0,0.9,0.1l8.4,8.4l-8.4,8.4C0.8,17,0.6,17,0.6,17z"/>
+</svg>
+
+                </div>
+            </div>
+            <ul class="data-list">
+                <li class="data-item active" data-id="#item-tab1">
+                    <div class="data-item__col">
+                        <h3 class="data-item__title">SFTP хранилище в Майами </h3>
+                        <ul class="data-item__adv-list">
+                            <li class="adv-item">
+                                <div class="adv-item__icon">
+                                    <img alt="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAACV0lEQVRIibWVO2hVQRCGv70+IDGggohYBoyiCFYWQRRBDBcsbiFspUESWzUgFvYWEsjFUkwTUsiioIUgJjY+uKKVKD4wIaWIICI+AoquzPE/3ON5XHMKpzu7M9+Znfln1/EPi54twDAwCAwAX4AloOMC73pFV8KjpwVMAPu19B1YBvqAtVp7AEy5wM0CAGiUQLdGzzxwA9gAnAK2G9SF5LtP37a+3vzM3+J6Zh49u4HbwDrgNDDrArGQUtff4o8Bl4CvQNMFnhfg+vMTHX/EBRYKtAqLnm3AHZVrrwu8zZdlRhnXAicZ/vEfUfxM/nit6InRc7wQWcMsXpxWNnNTxTOrcU1Yf/QczSzNijORwKVjk9t0r+aVgK2+14Fr0bNH5bH4aeMZt6EBQQ1ZKdgJ0gTOucDTzHbKGW5o8kwhiwVKtU1JgjZAkzmvRfEGGxrpZRf4lcvuRPRcLMn6PHBGqjib3xfHJnmgobvCGrMq53fQjhx9FxA948AF4BYwVtYjcfqNu1qX0BpgCHiV8TPQJmAyej4An4DLwEPAu8DPiqINibdkmXe02Mwdz+pmMnuk5l0FXgJHXOBbAdm1lNNxOso9YDOwq6T2G4H7mr596WiXWfTJ3LwA3rvAgXSI2sAOq2NJgz4qm8O9wLIxcdp/rera/Bw9OwshKzCLU/x86p29uEbVtLm6P5D/nOJHC3AdOW3G4+g5qRpWmu2bn/nLp5ktXeGZ071uA3IIeA1c0QPyxuQnHZvcLBEDW43vWsb5ntR5Q39AIkEbENOxmamoXfWG/r/XH/gNfdTPc4JWwYAAAAAASUVORK5CYII=
+" />
+                                </div>
+                                <div class="adv-item__text">
+                                    Поддержка протоколов SFTP и SSH 
+                                </div>
+                            </li>
+                            <li class="adv-item">
+                                <div class="adv-item__icon">
+                                    <img alt="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAACV0lEQVRIibWVO2hVQRCGv70+IDGggohYBoyiCFYWQRRBDBcsbiFspUESWzUgFvYWEsjFUkwTUsiioIUgJjY+uKKVKD4wIaWIICI+AoquzPE/3ON5XHMKpzu7M9+Znfln1/EPi54twDAwCAwAX4AloOMC73pFV8KjpwVMAPu19B1YBvqAtVp7AEy5wM0CAGiUQLdGzzxwA9gAnAK2G9SF5LtP37a+3vzM3+J6Zh49u4HbwDrgNDDrArGQUtff4o8Bl4CvQNMFnhfg+vMTHX/EBRYKtAqLnm3AHZVrrwu8zZdlRhnXAicZ/vEfUfxM/nit6InRc7wQWcMsXpxWNnNTxTOrcU1Yf/QczSzNijORwKVjk9t0r+aVgK2+14Fr0bNH5bH4aeMZt6EBQQ1ZKdgJ0gTOucDTzHbKGW5o8kwhiwVKtU1JgjZAkzmvRfEGGxrpZRf4lcvuRPRcLMn6PHBGqjib3xfHJnmgobvCGrMq53fQjhx9FxA948AF4BYwVtYjcfqNu1qX0BpgCHiV8TPQJmAyej4An4DLwEPAu8DPiqINibdkmXe02Mwdz+pmMnuk5l0FXgJHXOBbAdm1lNNxOso9YDOwq6T2G4H7mr596WiXWfTJ3LwA3rvAgXSI2sAOq2NJgz4qm8O9wLIxcdp/rera/Bw9OwshKzCLU/x86p29uEbVtLm6P5D/nOJHC3AdOW3G4+g5qRpWmu2bn/nLp5ktXeGZ071uA3IIeA1c0QPyxuQnHZvcLBEDW43vWsb5ntR5Q39AIkEbENOxmamoXfWG/r/XH/gNfdTPc4JWwYAAAAAASUVORK5CYII=
+" />
+                                </div>
+                                <div class="adv-item__text">
+                                    Подключение по публичному SSH-ключу или паролю 
+                                </div>
+                            </li>
+                            <li class="adv-item">
+                                <div class="adv-item__icon">
+                                    <img alt="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAACV0lEQVRIibWVO2hVQRCGv70+IDGggohYBoyiCFYWQRRBDBcsbiFspUESWzUgFvYWEsjFUkwTUsiioIUgJjY+uKKVKD4wIaWIICI+AoquzPE/3ON5XHMKpzu7M9+Znfln1/EPi54twDAwCAwAX4AloOMC73pFV8KjpwVMAPu19B1YBvqAtVp7AEy5wM0CAGiUQLdGzzxwA9gAnAK2G9SF5LtP37a+3vzM3+J6Zh49u4HbwDrgNDDrArGQUtff4o8Bl4CvQNMFnhfg+vMTHX/EBRYKtAqLnm3AHZVrrwu8zZdlRhnXAicZ/vEfUfxM/nit6InRc7wQWcMsXpxWNnNTxTOrcU1Yf/QczSzNijORwKVjk9t0r+aVgK2+14Fr0bNH5bH4aeMZt6EBQQ1ZKdgJ0gTOucDTzHbKGW5o8kwhiwVKtU1JgjZAkzmvRfEGGxrpZRf4lcvuRPRcLMn6PHBGqjib3xfHJnmgobvCGrMq53fQjhx9FxA948AF4BYwVtYjcfqNu1qX0BpgCHiV8TPQJmAyej4An4DLwEPAu8DPiqINibdkmXe02Mwdz+pmMnuk5l0FXgJHXOBbAdm1lNNxOso9YDOwq6T2G4H7mr596WiXWfTJ3LwA3rvAgXSI2sAOq2NJgz4qm8O9wLIxcdp/rera/Bw9OwshKzCLU/x86p29uEbVtLm6P5D/nOJHC3AdOW3G4+g5qRpWmu2bn/nLp5ktXeGZ071uA3IIeA1c0QPyxuQnHZvcLBEDW43vWsb5ntR5Q39AIkEbENOxmamoXfWG/r/XH/gNfdTPc4JWwYAAAAAASUVORK5CYII=
+" />
+                                </div>
+                                <div class="adv-item__text">
+                                    Гибкая синхронизация Rsync 
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="data-item__col" >
+                        <h3 class="data-item__title">S3 хранилище в на Востоке и Западе США </h3>
+                        <ul class="data-item__adv-list">
+                            <li class="adv-item">
+                                <div class="adv-item__icon">
+                                    <img alt="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAACV0lEQVRIibWVO2hVQRCGv70+IDGggohYBoyiCFYWQRRBDBcsbiFspUESWzUgFvYWEsjFUkwTUsiioIUgJjY+uKKVKD4wIaWIICI+AoquzPE/3ON5XHMKpzu7M9+Znfln1/EPi54twDAwCAwAX4AloOMC73pFV8KjpwVMAPu19B1YBvqAtVp7AEy5wM0CAGiUQLdGzzxwA9gAnAK2G9SF5LtP37a+3vzM3+J6Zh49u4HbwDrgNDDrArGQUtff4o8Bl4CvQNMFnhfg+vMTHX/EBRYKtAqLnm3AHZVrrwu8zZdlRhnXAicZ/vEfUfxM/nit6InRc7wQWcMsXpxWNnNTxTOrcU1Yf/QczSzNijORwKVjk9t0r+aVgK2+14Fr0bNH5bH4aeMZt6EBQQ1ZKdgJ0gTOucDTzHbKGW5o8kwhiwVKtU1JgjZAkzmvRfEGGxrpZRf4lcvuRPRcLMn6PHBGqjib3xfHJnmgobvCGrMq53fQjhx9FxA948AF4BYwVtYjcfqNu1qX0BpgCHiV8TPQJmAyej4An4DLwEPAu8DPiqINibdkmXe02Mwdz+pmMnuk5l0FXgJHXOBbAdm1lNNxOso9YDOwq6T2G4H7mr596WiXWfTJ3LwA3rvAgXSI2sAOq2NJgz4qm8O9wLIxcdp/rera/Bw9OwshKzCLU/x86p29uEbVtLm6P5D/nOJHC3AdOW3G4+g5qRpWmu2bn/nLp5ktXeGZ071uA3IIeA1c0QPyxuQnHZvcLBEDW43vWsb5ntR5Q39AIkEbENOxmamoXfWG/r/XH/gNfdTPc4JWwYAAAAAASUVORK5CYII=
+" />
+                                </div>
+                                <div class="adv-item__text">
+                                    Не нужно вносить изменения в S3-совместимое приложение 
+                                </div>
+                            </li>
+                            <li class="adv-item">
+                                <div class="adv-item__icon">
+                                    <img alt="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAACV0lEQVRIibWVO2hVQRCGv70+IDGggohYBoyiCFYWQRRBDBcsbiFspUESWzUgFvYWEsjFUkwTUsiioIUgJjY+uKKVKD4wIaWIICI+AoquzPE/3ON5XHMKpzu7M9+Znfln1/EPi54twDAwCAwAX4AloOMC73pFV8KjpwVMAPu19B1YBvqAtVp7AEy5wM0CAGiUQLdGzzxwA9gAnAK2G9SF5LtP37a+3vzM3+J6Zh49u4HbwDrgNDDrArGQUtff4o8Bl4CvQNMFnhfg+vMTHX/EBRYKtAqLnm3AHZVrrwu8zZdlRhnXAicZ/vEfUfxM/nit6InRc7wQWcMsXpxWNnNTxTOrcU1Yf/QczSzNijORwKVjk9t0r+aVgK2+14Fr0bNH5bH4aeMZt6EBQQ1ZKdgJ0gTOucDTzHbKGW5o8kwhiwVKtU1JgjZAkzmvRfEGGxrpZRf4lcvuRPRcLMn6PHBGqjib3xfHJnmgobvCGrMq53fQjhx9FxA948AF4BYwVtYjcfqNu1qX0BpgCHiV8TPQJmAyej4An4DLwEPAu8DPiqINibdkmXe02Mwdz+pmMnuk5l0FXgJHXOBbAdm1lNNxOso9YDOwq6T2G4H7mr596WiXWfTJ3LwA3rvAgXSI2sAOq2NJgz4qm8O9wLIxcdp/rera/Bw9OwshKzCLU/x86p29uEbVtLm6P5D/nOJHC3AdOW3G4+g5qRpWmu2bn/nLp5ktXeGZ071uA3IIeA1c0QPyxuQnHZvcLBEDW43vWsb5ntR5Q39AIkEbENOxmamoXfWG/r/XH/gNfdTPc4JWwYAAAAAASUVORK5CYII=
+" />
+                                </div>
+                                <div class="adv-item__text">
+                                    Защита от случайного удаления, ошибок софта и&nbsp;вредоносных ботов 
+                                </div>
+                            </li>
+                            <li class="adv-item">
+                                <div class="adv-item__icon">
+                                    <img alt="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAACV0lEQVRIibWVO2hVQRCGv70+IDGggohYBoyiCFYWQRRBDBcsbiFspUESWzUgFvYWEsjFUkwTUsiioIUgJjY+uKKVKD4wIaWIICI+AoquzPE/3ON5XHMKpzu7M9+Znfln1/EPi54twDAwCAwAX4AloOMC73pFV8KjpwVMAPu19B1YBvqAtVp7AEy5wM0CAGiUQLdGzzxwA9gAnAK2G9SF5LtP37a+3vzM3+J6Zh49u4HbwDrgNDDrArGQUtff4o8Bl4CvQNMFnhfg+vMTHX/EBRYKtAqLnm3AHZVrrwu8zZdlRhnXAicZ/vEfUfxM/nit6InRc7wQWcMsXpxWNnNTxTOrcU1Yf/QczSzNijORwKVjk9t0r+aVgK2+14Fr0bNH5bH4aeMZt6EBQQ1ZKdgJ0gTOucDTzHbKGW5o8kwhiwVKtU1JgjZAkzmvRfEGGxrpZRf4lcvuRPRcLMn6PHBGqjib3xfHJnmgobvCGrMq53fQjhx9FxA948AF4BYwVtYjcfqNu1qX0BpgCHiV8TPQJmAyej4An4DLwEPAu8DPiqINibdkmXe02Mwdz+pmMnuk5l0FXgJHXOBbAdm1lNNxOso9YDOwq6T2G4H7mr596WiXWfTJ3LwA3rvAgXSI2sAOq2NJgz4qm8O9wLIxcdp/rera/Bw9OwshKzCLU/x86p29uEbVtLm6P5D/nOJHC3AdOW3G4+g5qRpWmu2bn/nLp5ktXeGZ071uA3IIeA1c0QPyxuQnHZvcLBEDW43vWsb5ntR5Q39AIkEbENOxmamoXfWG/r/XH/gNfdTPc4JWwYAAAAAASUVORK5CYII=
+" />
+                                </div>
+                                <div class="adv-item__text">
+                                    Время ответа сервера в пределах 15 мс
+                                </div>
+                            </li>
+                        </ul>
+                    </div>  
+                </li>
+                <li class="data-item" data-id="#item-tab2">
+                    <div class="data-item__col">
+                        <h3 class="data-item__title">SFTP хранилище в Амстердаме</h3>
+                        <ul class="data-item__adv-list">
+                            <li class="adv-item">
+                                <div class="adv-item__icon">
+                                    <img alt="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAACV0lEQVRIibWVO2hVQRCGv70+IDGggohYBoyiCFYWQRRBDBcsbiFspUESWzUgFvYWEsjFUkwTUsiioIUgJjY+uKKVKD4wIaWIICI+AoquzPE/3ON5XHMKpzu7M9+Znfln1/EPi54twDAwCAwAX4AloOMC73pFV8KjpwVMAPu19B1YBvqAtVp7AEy5wM0CAGiUQLdGzzxwA9gAnAK2G9SF5LtP37a+3vzM3+J6Zh49u4HbwDrgNDDrArGQUtff4o8Bl4CvQNMFnhfg+vMTHX/EBRYKtAqLnm3AHZVrrwu8zZdlRhnXAicZ/vEfUfxM/nit6InRc7wQWcMsXpxWNnNTxTOrcU1Yf/QczSzNijORwKVjk9t0r+aVgK2+14Fr0bNH5bH4aeMZt6EBQQ1ZKdgJ0gTOucDTzHbKGW5o8kwhiwVKtU1JgjZAkzmvRfEGGxrpZRf4lcvuRPRcLMn6PHBGqjib3xfHJnmgobvCGrMq53fQjhx9FxA948AF4BYwVtYjcfqNu1qX0BpgCHiV8TPQJmAyej4An4DLwEPAu8DPiqINibdkmXe02Mwdz+pmMnuk5l0FXgJHXOBbAdm1lNNxOso9YDOwq6T2G4H7mr596WiXWfTJ3LwA3rvAgXSI2sAOq2NJgz4qm8O9wLIxcdp/rera/Bw9OwshKzCLU/x86p29uEbVtLm6P5D/nOJHC3AdOW3G4+g5qRpWmu2bn/nLp5ktXeGZ071uA3IIeA1c0QPyxuQnHZvcLBEDW43vWsb5ntR5Q39AIkEbENOxmamoXfWG/r/XH/gNfdTPc4JWwYAAAAAASUVORK5CYII=
+" />
+                                </div>
+                                <div class="adv-item__text">
+                                    Поддержка протоколов SFTP и SSH 
+                                </div>
+                            </li>
+                            <li class="adv-item">
+                                <div class="adv-item__icon">
+                                    <img alt="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAACV0lEQVRIibWVO2hVQRCGv70+IDGggohYBoyiCFYWQRRBDBcsbiFspUESWzUgFvYWEsjFUkwTUsiioIUgJjY+uKKVKD4wIaWIICI+AoquzPE/3ON5XHMKpzu7M9+Znfln1/EPi54twDAwCAwAX4AloOMC73pFV8KjpwVMAPu19B1YBvqAtVp7AEy5wM0CAGiUQLdGzzxwA9gAnAK2G9SF5LtP37a+3vzM3+J6Zh49u4HbwDrgNDDrArGQUtff4o8Bl4CvQNMFnhfg+vMTHX/EBRYKtAqLnm3AHZVrrwu8zZdlRhnXAicZ/vEfUfxM/nit6InRc7wQWcMsXpxWNnNTxTOrcU1Yf/QczSzNijORwKVjk9t0r+aVgK2+14Fr0bNH5bH4aeMZt6EBQQ1ZKdgJ0gTOucDTzHbKGW5o8kwhiwVKtU1JgjZAkzmvRfEGGxrpZRf4lcvuRPRcLMn6PHBGqjib3xfHJnmgobvCGrMq53fQjhx9FxA948AF4BYwVtYjcfqNu1qX0BpgCHiV8TPQJmAyej4An4DLwEPAu8DPiqINibdkmXe02Mwdz+pmMnuk5l0FXgJHXOBbAdm1lNNxOso9YDOwq6T2G4H7mr596WiXWfTJ3LwA3rvAgXSI2sAOq2NJgz4qm8O9wLIxcdp/rera/Bw9OwshKzCLU/x86p29uEbVtLm6P5D/nOJHC3AdOW3G4+g5qRpWmu2bn/nLp5ktXeGZ071uA3IIeA1c0QPyxuQnHZvcLBEDW43vWsb5ntR5Q39AIkEbENOxmamoXfWG/r/XH/gNfdTPc4JWwYAAAAAASUVORK5CYII=
+" />
+                                </div>
+                                <div class="adv-item__text">
+                                    Подключение по публичному SSH-ключу или паролю 
+                                </div>
+                            </li>
+                            <li class="adv-item">
+                                <div class="adv-item__icon">
+                                    <img alt="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAACV0lEQVRIibWVO2hVQRCGv70+IDGggohYBoyiCFYWQRRBDBcsbiFspUESWzUgFvYWEsjFUkwTUsiioIUgJjY+uKKVKD4wIaWIICI+AoquzPE/3ON5XHMKpzu7M9+Znfln1/EPi54twDAwCAwAX4AloOMC73pFV8KjpwVMAPu19B1YBvqAtVp7AEy5wM0CAGiUQLdGzzxwA9gAnAK2G9SF5LtP37a+3vzM3+J6Zh49u4HbwDrgNDDrArGQUtff4o8Bl4CvQNMFnhfg+vMTHX/EBRYKtAqLnm3AHZVrrwu8zZdlRhnXAicZ/vEfUfxM/nit6InRc7wQWcMsXpxWNnNTxTOrcU1Yf/QczSzNijORwKVjk9t0r+aVgK2+14Fr0bNH5bH4aeMZt6EBQQ1ZKdgJ0gTOucDTzHbKGW5o8kwhiwVKtU1JgjZAkzmvRfEGGxrpZRf4lcvuRPRcLMn6PHBGqjib3xfHJnmgobvCGrMq53fQjhx9FxA948AF4BYwVtYjcfqNu1qX0BpgCHiV8TPQJmAyej4An4DLwEPAu8DPiqINibdkmXe02Mwdz+pmMnuk5l0FXgJHXOBbAdm1lNNxOso9YDOwq6T2G4H7mr596WiXWfTJ3LwA3rvAgXSI2sAOq2NJgz4qm8O9wLIxcdp/rera/Bw9OwshKzCLU/x86p29uEbVtLm6P5D/nOJHC3AdOW3G4+g5qRpWmu2bn/nLp5ktXeGZ071uA3IIeA1c0QPyxuQnHZvcLBEDW43vWsb5ntR5Q39AIkEbENOxmamoXfWG/r/XH/gNfdTPc4JWwYAAAAAASUVORK5CYII=
+" />
+                                </div>
+                                <div class="adv-item__text">
+                                    Гибкая синхронизация Rsync 
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="data-item__col">
+                        <h3 class="data-item__title">S3 хранилище в Амстердаме</h3>
+                        <ul class="data-item__adv-list">
+                            <li class="adv-item">
+                                <div class="adv-item__icon">
+                                    <img alt="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAACV0lEQVRIibWVO2hVQRCGv70+IDGggohYBoyiCFYWQRRBDBcsbiFspUESWzUgFvYWEsjFUkwTUsiioIUgJjY+uKKVKD4wIaWIICI+AoquzPE/3ON5XHMKpzu7M9+Znfln1/EPi54twDAwCAwAX4AloOMC73pFV8KjpwVMAPu19B1YBvqAtVp7AEy5wM0CAGiUQLdGzzxwA9gAnAK2G9SF5LtP37a+3vzM3+J6Zh49u4HbwDrgNDDrArGQUtff4o8Bl4CvQNMFnhfg+vMTHX/EBRYKtAqLnm3AHZVrrwu8zZdlRhnXAicZ/vEfUfxM/nit6InRc7wQWcMsXpxWNnNTxTOrcU1Yf/QczSzNijORwKVjk9t0r+aVgK2+14Fr0bNH5bH4aeMZt6EBQQ1ZKdgJ0gTOucDTzHbKGW5o8kwhiwVKtU1JgjZAkzmvRfEGGxrpZRf4lcvuRPRcLMn6PHBGqjib3xfHJnmgobvCGrMq53fQjhx9FxA948AF4BYwVtYjcfqNu1qX0BpgCHiV8TPQJmAyej4An4DLwEPAu8DPiqINibdkmXe02Mwdz+pmMnuk5l0FXgJHXOBbAdm1lNNxOso9YDOwq6T2G4H7mr596WiXWfTJ3LwA3rvAgXSI2sAOq2NJgz4qm8O9wLIxcdp/rera/Bw9OwshKzCLU/x86p29uEbVtLm6P5D/nOJHC3AdOW3G4+g5qRpWmu2bn/nLp5ktXeGZ071uA3IIeA1c0QPyxuQnHZvcLBEDW43vWsb5ntR5Q39AIkEbENOxmamoXfWG/r/XH/gNfdTPc4JWwYAAAAAASUVORK5CYII=
+" />
+                                </div>
+                                <div class="adv-item__text">
+                                    Не нужно вносить изменения в S3-совместимое приложение 
+                                </div>
+                            </li>
+                            <li class="adv-item">
+                                <div class="adv-item__icon">
+                                    <img alt="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAACV0lEQVRIibWVO2hVQRCGv70+IDGggohYBoyiCFYWQRRBDBcsbiFspUESWzUgFvYWEsjFUkwTUsiioIUgJjY+uKKVKD4wIaWIICI+AoquzPE/3ON5XHMKpzu7M9+Znfln1/EPi54twDAwCAwAX4AloOMC73pFV8KjpwVMAPu19B1YBvqAtVp7AEy5wM0CAGiUQLdGzzxwA9gAnAK2G9SF5LtP37a+3vzM3+J6Zh49u4HbwDrgNDDrArGQUtff4o8Bl4CvQNMFnhfg+vMTHX/EBRYKtAqLnm3AHZVrrwu8zZdlRhnXAicZ/vEfUfxM/nit6InRc7wQWcMsXpxWNnNTxTOrcU1Yf/QczSzNijORwKVjk9t0r+aVgK2+14Fr0bNH5bH4aeMZt6EBQQ1ZKdgJ0gTOucDTzHbKGW5o8kwhiwVKtU1JgjZAkzmvRfEGGxrpZRf4lcvuRPRcLMn6PHBGqjib3xfHJnmgobvCGrMq53fQjhx9FxA948AF4BYwVtYjcfqNu1qX0BpgCHiV8TPQJmAyej4An4DLwEPAu8DPiqINibdkmXe02Mwdz+pmMnuk5l0FXgJHXOBbAdm1lNNxOso9YDOwq6T2G4H7mr596WiXWfTJ3LwA3rvAgXSI2sAOq2NJgz4qm8O9wLIxcdp/rera/Bw9OwshKzCLU/x86p29uEbVtLm6P5D/nOJHC3AdOW3G4+g5qRpWmu2bn/nLp5ktXeGZ071uA3IIeA1c0QPyxuQnHZvcLBEDW43vWsb5ntR5Q39AIkEbENOxmamoXfWG/r/XH/gNfdTPc4JWwYAAAAAASUVORK5CYII=
+" />
+                                </div>
+                                <div class="adv-item__text">
+                                    Защита от случайного удаления, ошибок софта и&nbsp;вредоносных ботов 
+                                </div>
+                            </li>
+                            <li class="adv-item">
+                                <div class="adv-item__icon">
+                                    <img alt="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAACV0lEQVRIibWVO2hVQRCGv70+IDGggohYBoyiCFYWQRRBDBcsbiFspUESWzUgFvYWEsjFUkwTUsiioIUgJjY+uKKVKD4wIaWIICI+AoquzPE/3ON5XHMKpzu7M9+Znfln1/EPi54twDAwCAwAX4AloOMC73pFV8KjpwVMAPu19B1YBvqAtVp7AEy5wM0CAGiUQLdGzzxwA9gAnAK2G9SF5LtP37a+3vzM3+J6Zh49u4HbwDrgNDDrArGQUtff4o8Bl4CvQNMFnhfg+vMTHX/EBRYKtAqLnm3AHZVrrwu8zZdlRhnXAicZ/vEfUfxM/nit6InRc7wQWcMsXpxWNnNTxTOrcU1Yf/QczSzNijORwKVjk9t0r+aVgK2+14Fr0bNH5bH4aeMZt6EBQQ1ZKdgJ0gTOucDTzHbKGW5o8kwhiwVKtU1JgjZAkzmvRfEGGxrpZRf4lcvuRPRcLMn6PHBGqjib3xfHJnmgobvCGrMq53fQjhx9FxA948AF4BYwVtYjcfqNu1qX0BpgCHiV8TPQJmAyej4An4DLwEPAu8DPiqINibdkmXe02Mwdz+pmMnuk5l0FXgJHXOBbAdm1lNNxOso9YDOwq6T2G4H7mr596WiXWfTJ3LwA3rvAgXSI2sAOq2NJgz4qm8O9wLIxcdp/rera/Bw9OwshKzCLU/x86p29uEbVtLm6P5D/nOJHC3AdOW3G4+g5qRpWmu2bn/nLp5ktXeGZ071uA3IIeA1c0QPyxuQnHZvcLBEDW43vWsb5ntR5Q39AIkEbENOxmamoXfWG/r/XH/gNfdTPc4JWwYAAAAAASUVORK5CYII=
+" />
+                                </div>
+                                <div class="adv-item__text">
+                                    Время ответа сервера в пределах 15 мс
+                                </div>
+                            </li>
+                        </ul>
+                    </div>  
+                </li>
+                <li class="data-item" data-id="#item-tab3">
+                    <div class="data-item__col">
+                        <h3 class="data-item__title">SFTP хранилище в Сингапуре</h3>
+                        <ul class="data-item__adv-list">
+                            <li class="adv-item">
+                                <div class="adv-item__icon">
+                                    <img alt="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAACV0lEQVRIibWVO2hVQRCGv70+IDGggohYBoyiCFYWQRRBDBcsbiFspUESWzUgFvYWEsjFUkwTUsiioIUgJjY+uKKVKD4wIaWIICI+AoquzPE/3ON5XHMKpzu7M9+Znfln1/EPi54twDAwCAwAX4AloOMC73pFV8KjpwVMAPu19B1YBvqAtVp7AEy5wM0CAGiUQLdGzzxwA9gAnAK2G9SF5LtP37a+3vzM3+J6Zh49u4HbwDrgNDDrArGQUtff4o8Bl4CvQNMFnhfg+vMTHX/EBRYKtAqLnm3AHZVrrwu8zZdlRhnXAicZ/vEfUfxM/nit6InRc7wQWcMsXpxWNnNTxTOrcU1Yf/QczSzNijORwKVjk9t0r+aVgK2+14Fr0bNH5bH4aeMZt6EBQQ1ZKdgJ0gTOucDTzHbKGW5o8kwhiwVKtU1JgjZAkzmvRfEGGxrpZRf4lcvuRPRcLMn6PHBGqjib3xfHJnmgobvCGrMq53fQjhx9FxA948AF4BYwVtYjcfqNu1qX0BpgCHiV8TPQJmAyej4An4DLwEPAu8DPiqINibdkmXe02Mwdz+pmMnuk5l0FXgJHXOBbAdm1lNNxOso9YDOwq6T2G4H7mr596WiXWfTJ3LwA3rvAgXSI2sAOq2NJgz4qm8O9wLIxcdp/rera/Bw9OwshKzCLU/x86p29uEbVtLm6P5D/nOJHC3AdOW3G4+g5qRpWmu2bn/nLp5ktXeGZ071uA3IIeA1c0QPyxuQnHZvcLBEDW43vWsb5ntR5Q39AIkEbENOxmamoXfWG/r/XH/gNfdTPc4JWwYAAAAAASUVORK5CYII=
+" />
+                                </div>
+                                <div class="adv-item__text">
+                                    Поддержка протоколов SFTP и SSH 
+                                </div>
+                            </li>
+                            <li class="adv-item">
+                                <div class="adv-item__icon">
+                                    <img alt="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAACV0lEQVRIibWVO2hVQRCGv70+IDGggohYBoyiCFYWQRRBDBcsbiFspUESWzUgFvYWEsjFUkwTUsiioIUgJjY+uKKVKD4wIaWIICI+AoquzPE/3ON5XHMKpzu7M9+Znfln1/EPi54twDAwCAwAX4AloOMC73pFV8KjpwVMAPu19B1YBvqAtVp7AEy5wM0CAGiUQLdGzzxwA9gAnAK2G9SF5LtP37a+3vzM3+J6Zh49u4HbwDrgNDDrArGQUtff4o8Bl4CvQNMFnhfg+vMTHX/EBRYKtAqLnm3AHZVrrwu8zZdlRhnXAicZ/vEfUfxM/nit6InRc7wQWcMsXpxWNnNTxTOrcU1Yf/QczSzNijORwKVjk9t0r+aVgK2+14Fr0bNH5bH4aeMZt6EBQQ1ZKdgJ0gTOucDTzHbKGW5o8kwhiwVKtU1JgjZAkzmvRfEGGxrpZRf4lcvuRPRcLMn6PHBGqjib3xfHJnmgobvCGrMq53fQjhx9FxA948AF4BYwVtYjcfqNu1qX0BpgCHiV8TPQJmAyej4An4DLwEPAu8DPiqINibdkmXe02Mwdz+pmMnuk5l0FXgJHXOBbAdm1lNNxOso9YDOwq6T2G4H7mr596WiXWfTJ3LwA3rvAgXSI2sAOq2NJgz4qm8O9wLIxcdp/rera/Bw9OwshKzCLU/x86p29uEbVtLm6P5D/nOJHC3AdOW3G4+g5qRpWmu2bn/nLp5ktXeGZ071uA3IIeA1c0QPyxuQnHZvcLBEDW43vWsb5ntR5Q39AIkEbENOxmamoXfWG/r/XH/gNfdTPc4JWwYAAAAAASUVORK5CYII=
+" />
+                                </div>
+                                <div class="adv-item__text">
+                                    Подключение по публичному SSH-ключу или паролю 
+                                </div>
+                            </li>
+                            <li class="adv-item">
+                                <div class="adv-item__icon">
+                                    <img alt="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAACV0lEQVRIibWVO2hVQRCGv70+IDGggohYBoyiCFYWQRRBDBcsbiFspUESWzUgFvYWEsjFUkwTUsiioIUgJjY+uKKVKD4wIaWIICI+AoquzPE/3ON5XHMKpzu7M9+Znfln1/EPi54twDAwCAwAX4AloOMC73pFV8KjpwVMAPu19B1YBvqAtVp7AEy5wM0CAGiUQLdGzzxwA9gAnAK2G9SF5LtP37a+3vzM3+J6Zh49u4HbwDrgNDDrArGQUtff4o8Bl4CvQNMFnhfg+vMTHX/EBRYKtAqLnm3AHZVrrwu8zZdlRhnXAicZ/vEfUfxM/nit6InRc7wQWcMsXpxWNnNTxTOrcU1Yf/QczSzNijORwKVjk9t0r+aVgK2+14Fr0bNH5bH4aeMZt6EBQQ1ZKdgJ0gTOucDTzHbKGW5o8kwhiwVKtU1JgjZAkzmvRfEGGxrpZRf4lcvuRPRcLMn6PHBGqjib3xfHJnmgobvCGrMq53fQjhx9FxA948AF4BYwVtYjcfqNu1qX0BpgCHiV8TPQJmAyej4An4DLwEPAu8DPiqINibdkmXe02Mwdz+pmMnuk5l0FXgJHXOBbAdm1lNNxOso9YDOwq6T2G4H7mr596WiXWfTJ3LwA3rvAgXSI2sAOq2NJgz4qm8O9wLIxcdp/rera/Bw9OwshKzCLU/x86p29uEbVtLm6P5D/nOJHC3AdOW3G4+g5qRpWmu2bn/nLp5ktXeGZ071uA3IIeA1c0QPyxuQnHZvcLBEDW43vWsb5ntR5Q39AIkEbENOxmamoXfWG/r/XH/gNfdTPc4JWwYAAAAAASUVORK5CYII=
+" />
+                                </div>
+                                <div class="adv-item__text">
+                                    Гибкая синхронизация Rsync 
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="data-item__col">
+                        <h3 class="data-item__title">S3 хранилище в Сингапуре</h3>
+                        <ul class="data-item__adv-list">
+                            <li class="adv-item">
+                                <div class="adv-item__icon">
+                                    <img alt="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAACV0lEQVRIibWVO2hVQRCGv70+IDGggohYBoyiCFYWQRRBDBcsbiFspUESWzUgFvYWEsjFUkwTUsiioIUgJjY+uKKVKD4wIaWIICI+AoquzPE/3ON5XHMKpzu7M9+Znfln1/EPi54twDAwCAwAX4AloOMC73pFV8KjpwVMAPu19B1YBvqAtVp7AEy5wM0CAGiUQLdGzzxwA9gAnAK2G9SF5LtP37a+3vzM3+J6Zh49u4HbwDrgNDDrArGQUtff4o8Bl4CvQNMFnhfg+vMTHX/EBRYKtAqLnm3AHZVrrwu8zZdlRhnXAicZ/vEfUfxM/nit6InRc7wQWcMsXpxWNnNTxTOrcU1Yf/QczSzNijORwKVjk9t0r+aVgK2+14Fr0bNH5bH4aeMZt6EBQQ1ZKdgJ0gTOucDTzHbKGW5o8kwhiwVKtU1JgjZAkzmvRfEGGxrpZRf4lcvuRPRcLMn6PHBGqjib3xfHJnmgobvCGrMq53fQjhx9FxA948AF4BYwVtYjcfqNu1qX0BpgCHiV8TPQJmAyej4An4DLwEPAu8DPiqINibdkmXe02Mwdz+pmMnuk5l0FXgJHXOBbAdm1lNNxOso9YDOwq6T2G4H7mr596WiXWfTJ3LwA3rvAgXSI2sAOq2NJgz4qm8O9wLIxcdp/rera/Bw9OwshKzCLU/x86p29uEbVtLm6P5D/nOJHC3AdOW3G4+g5qRpWmu2bn/nLp5ktXeGZ071uA3IIeA1c0QPyxuQnHZvcLBEDW43vWsb5ntR5Q39AIkEbENOxmamoXfWG/r/XH/gNfdTPc4JWwYAAAAAASUVORK5CYII=
+" />
+                                </div>
+                                <div class="adv-item__text">
+                                    Не нужно вносить изменения в S3-совместимое приложение 
+                                </div>
+                            </li>
+                            <li class="adv-item">
+                                <div class="adv-item__icon">
+                                    <img alt="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAACV0lEQVRIibWVO2hVQRCGv70+IDGggohYBoyiCFYWQRRBDBcsbiFspUESWzUgFvYWEsjFUkwTUsiioIUgJjY+uKKVKD4wIaWIICI+AoquzPE/3ON5XHMKpzu7M9+Znfln1/EPi54twDAwCAwAX4AloOMC73pFV8KjpwVMAPu19B1YBvqAtVp7AEy5wM0CAGiUQLdGzzxwA9gAnAK2G9SF5LtP37a+3vzM3+J6Zh49u4HbwDrgNDDrArGQUtff4o8Bl4CvQNMFnhfg+vMTHX/EBRYKtAqLnm3AHZVrrwu8zZdlRhnXAicZ/vEfUfxM/nit6InRc7wQWcMsXpxWNnNTxTOrcU1Yf/QczSzNijORwKVjk9t0r+aVgK2+14Fr0bNH5bH4aeMZt6EBQQ1ZKdgJ0gTOucDTzHbKGW5o8kwhiwVKtU1JgjZAkzmvRfEGGxrpZRf4lcvuRPRcLMn6PHBGqjib3xfHJnmgobvCGrMq53fQjhx9FxA948AF4BYwVtYjcfqNu1qX0BpgCHiV8TPQJmAyej4An4DLwEPAu8DPiqINibdkmXe02Mwdz+pmMnuk5l0FXgJHXOBbAdm1lNNxOso9YDOwq6T2G4H7mr596WiXWfTJ3LwA3rvAgXSI2sAOq2NJgz4qm8O9wLIxcdp/rera/Bw9OwshKzCLU/x86p29uEbVtLm6P5D/nOJHC3AdOW3G4+g5qRpWmu2bn/nLp5ktXeGZ071uA3IIeA1c0QPyxuQnHZvcLBEDW43vWsb5ntR5Q39AIkEbENOxmamoXfWG/r/XH/gNfdTPc4JWwYAAAAAASUVORK5CYII=
+" />
+                                </div>
+                                <div class="adv-item__text">
+                                    Защита от случайного удаления, ошибок софта и&nbsp;вредоносных ботов 
+                                </div>
+                            </li>
+                            <li class="adv-item">
+                                <div class="adv-item__icon">
+                                    <img alt="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAACV0lEQVRIibWVO2hVQRCGv70+IDGggohYBoyiCFYWQRRBDBcsbiFspUESWzUgFvYWEsjFUkwTUsiioIUgJjY+uKKVKD4wIaWIICI+AoquzPE/3ON5XHMKpzu7M9+Znfln1/EPi54twDAwCAwAX4AloOMC73pFV8KjpwVMAPu19B1YBvqAtVp7AEy5wM0CAGiUQLdGzzxwA9gAnAK2G9SF5LtP37a+3vzM3+J6Zh49u4HbwDrgNDDrArGQUtff4o8Bl4CvQNMFnhfg+vMTHX/EBRYKtAqLnm3AHZVrrwu8zZdlRhnXAicZ/vEfUfxM/nit6InRc7wQWcMsXpxWNnNTxTOrcU1Yf/QczSzNijORwKVjk9t0r+aVgK2+14Fr0bNH5bH4aeMZt6EBQQ1ZKdgJ0gTOucDTzHbKGW5o8kwhiwVKtU1JgjZAkzmvRfEGGxrpZRf4lcvuRPRcLMn6PHBGqjib3xfHJnmgobvCGrMq53fQjhx9FxA948AF4BYwVtYjcfqNu1qX0BpgCHiV8TPQJmAyej4An4DLwEPAu8DPiqINibdkmXe02Mwdz+pmMnuk5l0FXgJHXOBbAdm1lNNxOso9YDOwq6T2G4H7mr596WiXWfTJ3LwA3rvAgXSI2sAOq2NJgz4qm8O9wLIxcdp/rera/Bw9OwshKzCLU/x86p29uEbVtLm6P5D/nOJHC3AdOW3G4+g5qRpWmu2bn/nLp5ktXeGZ071uA3IIeA1c0QPyxuQnHZvcLBEDW43vWsb5ntR5Q39AIkEbENOxmamoXfWG/r/XH/gNfdTPc4JWwYAAAAAASUVORK5CYII=
+" />
+                                </div>
+                                <div class="adv-item__text">
+                                    Время ответа сервера в пределах 15 мс
+                                </div>
+                            </li>
+                        </ul>
+                    </div>  
+                </li>
+                <li class="data-item" data-id="#item-tab4">
+                    <div class="data-item__col">
+                        <h3 class="data-item__title">SFTP хранилище в Люксембурге</h3>
+                        <ul class="data-item__adv-list">
+                            <li class="adv-item">
+                                <div class="adv-item__icon">
+                                    <img alt="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAACV0lEQVRIibWVO2hVQRCGv70+IDGggohYBoyiCFYWQRRBDBcsbiFspUESWzUgFvYWEsjFUkwTUsiioIUgJjY+uKKVKD4wIaWIICI+AoquzPE/3ON5XHMKpzu7M9+Znfln1/EPi54twDAwCAwAX4AloOMC73pFV8KjpwVMAPu19B1YBvqAtVp7AEy5wM0CAGiUQLdGzzxwA9gAnAK2G9SF5LtP37a+3vzM3+J6Zh49u4HbwDrgNDDrArGQUtff4o8Bl4CvQNMFnhfg+vMTHX/EBRYKtAqLnm3AHZVrrwu8zZdlRhnXAicZ/vEfUfxM/nit6InRc7wQWcMsXpxWNnNTxTOrcU1Yf/QczSzNijORwKVjk9t0r+aVgK2+14Fr0bNH5bH4aeMZt6EBQQ1ZKdgJ0gTOucDTzHbKGW5o8kwhiwVKtU1JgjZAkzmvRfEGGxrpZRf4lcvuRPRcLMn6PHBGqjib3xfHJnmgobvCGrMq53fQjhx9FxA948AF4BYwVtYjcfqNu1qX0BpgCHiV8TPQJmAyej4An4DLwEPAu8DPiqINibdkmXe02Mwdz+pmMnuk5l0FXgJHXOBbAdm1lNNxOso9YDOwq6T2G4H7mr596WiXWfTJ3LwA3rvAgXSI2sAOq2NJgz4qm8O9wLIxcdp/rera/Bw9OwshKzCLU/x86p29uEbVtLm6P5D/nOJHC3AdOW3G4+g5qRpWmu2bn/nLp5ktXeGZ071uA3IIeA1c0QPyxuQnHZvcLBEDW43vWsb5ntR5Q39AIkEbENOxmamoXfWG/r/XH/gNfdTPc4JWwYAAAAAASUVORK5CYII=
+" />
+                                </div>
+                                <div class="adv-item__text">
+                                    Поддержка протоколов SFTP и SSH 
+                                </div>
+                            </li>
+                            <li class="adv-item">
+                                <div class="adv-item__icon">
+                                    <img alt="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAACV0lEQVRIibWVO2hVQRCGv70+IDGggohYBoyiCFYWQRRBDBcsbiFspUESWzUgFvYWEsjFUkwTUsiioIUgJjY+uKKVKD4wIaWIICI+AoquzPE/3ON5XHMKpzu7M9+Znfln1/EPi54twDAwCAwAX4AloOMC73pFV8KjpwVMAPu19B1YBvqAtVp7AEy5wM0CAGiUQLdGzzxwA9gAnAK2G9SF5LtP37a+3vzM3+J6Zh49u4HbwDrgNDDrArGQUtff4o8Bl4CvQNMFnhfg+vMTHX/EBRYKtAqLnm3AHZVrrwu8zZdlRhnXAicZ/vEfUfxM/nit6InRc7wQWcMsXpxWNnNTxTOrcU1Yf/QczSzNijORwKVjk9t0r+aVgK2+14Fr0bNH5bH4aeMZt6EBQQ1ZKdgJ0gTOucDTzHbKGW5o8kwhiwVKtU1JgjZAkzmvRfEGGxrpZRf4lcvuRPRcLMn6PHBGqjib3xfHJnmgobvCGrMq53fQjhx9FxA948AF4BYwVtYjcfqNu1qX0BpgCHiV8TPQJmAyej4An4DLwEPAu8DPiqINibdkmXe02Mwdz+pmMnuk5l0FXgJHXOBbAdm1lNNxOso9YDOwq6T2G4H7mr596WiXWfTJ3LwA3rvAgXSI2sAOq2NJgz4qm8O9wLIxcdp/rera/Bw9OwshKzCLU/x86p29uEbVtLm6P5D/nOJHC3AdOW3G4+g5qRpWmu2bn/nLp5ktXeGZ071uA3IIeA1c0QPyxuQnHZvcLBEDW43vWsb5ntR5Q39AIkEbENOxmamoXfWG/r/XH/gNfdTPc4JWwYAAAAAASUVORK5CYII=
+" />
+                                </div>
+                                <div class="adv-item__text">
+                                    Подключение по публичному SSH-ключу или паролю 
+                                </div>
+                            </li>
+                            <li class="adv-item">
+                                <div class="adv-item__icon">
+                                    <img alt="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAACV0lEQVRIibWVO2hVQRCGv70+IDGggohYBoyiCFYWQRRBDBcsbiFspUESWzUgFvYWEsjFUkwTUsiioIUgJjY+uKKVKD4wIaWIICI+AoquzPE/3ON5XHMKpzu7M9+Znfln1/EPi54twDAwCAwAX4AloOMC73pFV8KjpwVMAPu19B1YBvqAtVp7AEy5wM0CAGiUQLdGzzxwA9gAnAK2G9SF5LtP37a+3vzM3+J6Zh49u4HbwDrgNDDrArGQUtff4o8Bl4CvQNMFnhfg+vMTHX/EBRYKtAqLnm3AHZVrrwu8zZdlRhnXAicZ/vEfUfxM/nit6InRc7wQWcMsXpxWNnNTxTOrcU1Yf/QczSzNijORwKVjk9t0r+aVgK2+14Fr0bNH5bH4aeMZt6EBQQ1ZKdgJ0gTOucDTzHbKGW5o8kwhiwVKtU1JgjZAkzmvRfEGGxrpZRf4lcvuRPRcLMn6PHBGqjib3xfHJnmgobvCGrMq53fQjhx9FxA948AF4BYwVtYjcfqNu1qX0BpgCHiV8TPQJmAyej4An4DLwEPAu8DPiqINibdkmXe02Mwdz+pmMnuk5l0FXgJHXOBbAdm1lNNxOso9YDOwq6T2G4H7mr596WiXWfTJ3LwA3rvAgXSI2sAOq2NJgz4qm8O9wLIxcdp/rera/Bw9OwshKzCLU/x86p29uEbVtLm6P5D/nOJHC3AdOW3G4+g5qRpWmu2bn/nLp5ktXeGZ071uA3IIeA1c0QPyxuQnHZvcLBEDW43vWsb5ntR5Q39AIkEbENOxmamoXfWG/r/XH/gNfdTPc4JWwYAAAAAASUVORK5CYII=
+" />
+                                </div>
+                                <div class="adv-item__text">
+                                    Гибкая синхронизация Rsync 
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="data-item__col">
+                        <h3 class="data-item__title">S3 хранилище в Люксембурге</h3>
+                        <ul class="data-item__adv-list">
+                            <li class="adv-item">
+                                <div class="adv-item__icon">
+                                    <img alt="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAACV0lEQVRIibWVO2hVQRCGv70+IDGggohYBoyiCFYWQRRBDBcsbiFspUESWzUgFvYWEsjFUkwTUsiioIUgJjY+uKKVKD4wIaWIICI+AoquzPE/3ON5XHMKpzu7M9+Znfln1/EPi54twDAwCAwAX4AloOMC73pFV8KjpwVMAPu19B1YBvqAtVp7AEy5wM0CAGiUQLdGzzxwA9gAnAK2G9SF5LtP37a+3vzM3+J6Zh49u4HbwDrgNDDrArGQUtff4o8Bl4CvQNMFnhfg+vMTHX/EBRYKtAqLnm3AHZVrrwu8zZdlRhnXAicZ/vEfUfxM/nit6InRc7wQWcMsXpxWNnNTxTOrcU1Yf/QczSzNijORwKVjk9t0r+aVgK2+14Fr0bNH5bH4aeMZt6EBQQ1ZKdgJ0gTOucDTzHbKGW5o8kwhiwVKtU1JgjZAkzmvRfEGGxrpZRf4lcvuRPRcLMn6PHBGqjib3xfHJnmgobvCGrMq53fQjhx9FxA948AF4BYwVtYjcfqNu1qX0BpgCHiV8TPQJmAyej4An4DLwEPAu8DPiqINibdkmXe02Mwdz+pmMnuk5l0FXgJHXOBbAdm1lNNxOso9YDOwq6T2G4H7mr596WiXWfTJ3LwA3rvAgXSI2sAOq2NJgz4qm8O9wLIxcdp/rera/Bw9OwshKzCLU/x86p29uEbVtLm6P5D/nOJHC3AdOW3G4+g5qRpWmu2bn/nLp5ktXeGZ071uA3IIeA1c0QPyxuQnHZvcLBEDW43vWsb5ntR5Q39AIkEbENOxmamoXfWG/r/XH/gNfdTPc4JWwYAAAAAASUVORK5CYII=
+" />
+                                </div>
+                                <div class="adv-item__text">
+                                    Не нужно вносить изменения в S3-совместимое приложение 
+                                </div>
+                            </li>
+                            <li class="adv-item">
+                                <div class="adv-item__icon">
+                                    <img alt="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAACV0lEQVRIibWVO2hVQRCGv70+IDGggohYBoyiCFYWQRRBDBcsbiFspUESWzUgFvYWEsjFUkwTUsiioIUgJjY+uKKVKD4wIaWIICI+AoquzPE/3ON5XHMKpzu7M9+Znfln1/EPi54twDAwCAwAX4AloOMC73pFV8KjpwVMAPu19B1YBvqAtVp7AEy5wM0CAGiUQLdGzzxwA9gAnAK2G9SF5LtP37a+3vzM3+J6Zh49u4HbwDrgNDDrArGQUtff4o8Bl4CvQNMFnhfg+vMTHX/EBRYKtAqLnm3AHZVrrwu8zZdlRhnXAicZ/vEfUfxM/nit6InRc7wQWcMsXpxWNnNTxTOrcU1Yf/QczSzNijORwKVjk9t0r+aVgK2+14Fr0bNH5bH4aeMZt6EBQQ1ZKdgJ0gTOucDTzHbKGW5o8kwhiwVKtU1JgjZAkzmvRfEGGxrpZRf4lcvuRPRcLMn6PHBGqjib3xfHJnmgobvCGrMq53fQjhx9FxA948AF4BYwVtYjcfqNu1qX0BpgCHiV8TPQJmAyej4An4DLwEPAu8DPiqINibdkmXe02Mwdz+pmMnuk5l0FXgJHXOBbAdm1lNNxOso9YDOwq6T2G4H7mr596WiXWfTJ3LwA3rvAgXSI2sAOq2NJgz4qm8O9wLIxcdp/rera/Bw9OwshKzCLU/x86p29uEbVtLm6P5D/nOJHC3AdOW3G4+g5qRpWmu2bn/nLp5ktXeGZ071uA3IIeA1c0QPyxuQnHZvcLBEDW43vWsb5ntR5Q39AIkEbENOxmamoXfWG/r/XH/gNfdTPc4JWwYAAAAAASUVORK5CYII=
+" />
+                                </div>
+                                <div class="adv-item__text">
+                                    Защита от случайного удаления, ошибок софта и&nbsp;вредоносных ботов 
+                                </div>
+                            </li>
+                            <li class="adv-item">
+                                <div class="adv-item__icon">
+                                    <img alt="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAACV0lEQVRIibWVO2hVQRCGv70+IDGggohYBoyiCFYWQRRBDBcsbiFspUESWzUgFvYWEsjFUkwTUsiioIUgJjY+uKKVKD4wIaWIICI+AoquzPE/3ON5XHMKpzu7M9+Znfln1/EPi54twDAwCAwAX4AloOMC73pFV8KjpwVMAPu19B1YBvqAtVp7AEy5wM0CAGiUQLdGzzxwA9gAnAK2G9SF5LtP37a+3vzM3+J6Zh49u4HbwDrgNDDrArGQUtff4o8Bl4CvQNMFnhfg+vMTHX/EBRYKtAqLnm3AHZVrrwu8zZdlRhnXAicZ/vEfUfxM/nit6InRc7wQWcMsXpxWNnNTxTOrcU1Yf/QczSzNijORwKVjk9t0r+aVgK2+14Fr0bNH5bH4aeMZt6EBQQ1ZKdgJ0gTOucDTzHbKGW5o8kwhiwVKtU1JgjZAkzmvRfEGGxrpZRf4lcvuRPRcLMn6PHBGqjib3xfHJnmgobvCGrMq53fQjhx9FxA948AF4BYwVtYjcfqNu1qX0BpgCHiV8TPQJmAyej4An4DLwEPAu8DPiqINibdkmXe02Mwdz+pmMnuk5l0FXgJHXOBbAdm1lNNxOso9YDOwq6T2G4H7mr596WiXWfTJ3LwA3rvAgXSI2sAOq2NJgz4qm8O9wLIxcdp/rera/Bw9OwshKzCLU/x86p29uEbVtLm6P5D/nOJHC3AdOW3G4+g5qRpWmu2bn/nLp5ktXeGZ071uA3IIeA1c0QPyxuQnHZvcLBEDW43vWsb5ntR5Q39AIkEbENOxmamoXfWG/r/XH/gNfdTPc4JWwYAAAAAASUVORK5CYII=
+" />
+                                </div>
+                                <div class="adv-item__text">
+                                    Время ответа сервера в пределах 15 мс
+                                </div>
+                            </li>
+                        </ul>
+                    </div>  
+                </li>
+            </ul>
+            <button class="about-button">
+                Подробнее о хранилище
+            </button>
+        </div>
+    </div>
+
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="assets/vendor/jquery.3.2.1.min.js"><\/script>')</script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+<script src="/assets/build/global.js"></script>
+    
+</body>
+</html>
