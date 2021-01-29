@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="ru" class="no-js">
+<head>
+    @@include('../blocks/head.html', {
+        "title": "Тестовое задание"
+    })
+
+
+    <link rel="preload" href="/assets/build/global.css" as="style" onload="this.onload=null;this.rel='stylesheet';">
+
+</head>
+<body>
+    <div class="body">
+        <div class="body__content">
+            <h1 class="title">Объектное хранилище</h1>
+            <div class="subtitle">Храните контент рядом с клиентами в Европе, Азии и США </div>
+            <div class="city-list-wrapper">
+                
+            
+                <ul class="city-list">
+                    <li class="city-item" href="#item-tab1">
+                        <div class="city-item__text">Miami</div>
+                        <img src="/assets/images/1.png" alt="" class="city-item__image">
+                    </li>
+                    <li class="city-item" href="#item-tab2">
+                        <div class="city-item__text">Amsterdam</div>
+                        <img src="/assets/images/2.png" alt="" class="city-item__image">
+                    </li>
+                    <li class="city-item" href="#item-tab3">
+                        <div class="city-item__text">Singapore</div>
+                        <img src="/assets/images/3.png" alt="" class="city-item__image">
+                    </li>
+                    <li class="city-item" href="#item-tab4">
+                        <div class="city-item__text">Luxembourg</div>
+                        <img src="/assets/images/4.png" alt="" class="city-item__image">
+                    </li>
+
+                </ul>
+                <div class="slider-prev">
+                    @@include('../blocks/arrow.svg')
+                </div>
+                <div class="slider-next">
+                    @@include('../blocks/arrow.svg')
+                </div>
+            </div>
+            <ul class="data-list">
+                <li class="data-item active" data-id="#item-tab1">
+                    <div class="data-item__col">
+                        <h3 class="data-item__title">SFTP хранилище в Майами </h3>
+                        <ul class="data-item__adv-list">
+                            <li class="adv-item">
+                                <div class="adv-item__icon">
+                                    @@include('../blocks/check-mark.html')
+                                </div>
+                                <div class="adv-item__text">
+                                    Поддержка протоколов SFTP и SSH 
+                                </div>
+                            </li>
+                            <li class="adv-item">
+                                <div class="adv-item__icon">
+                                    @@include('../blocks/check-mark.html')
+                                </div>
+                                <div class="adv-item__text">
+                                    Подключение по публичному SSH-ключу или паролю 
+                                </div>
+                            </li>
+                            <li class="adv-item">
+                                <div class="adv-item__icon">
+                                    @@include('../blocks/check-mark.html')
+                                </div>
+                                <div class="adv-item__text">
+                                    Гибкая синхронизация Rsync 
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="data-item__col" >
+                        <h3 class="data-item__title">S3 хранилище в на Востоке и Западе США </h3>
+                        <ul class="data-item__adv-list">
+                            <li class="adv-item">
+                                <div class="adv-item__icon">
+                                    @@include('../blocks/check-mark.html')
+                                </div>
+                                <div class="adv-item__text">
+                                    Не нужно вносить изменения в S3-совместимое приложение 
+                                </div>
+                            </li>
+                            <li class="adv-item">
+                                <div class="adv-item__icon">
+                                    @@include('../blocks/check-mark.html')
+                                </div>
+                                <div class="adv-item__text">
+                                    Защита от случайного удаления, ошибок софта и&nbsp;вредоносных ботов 
+                                </div>
+                            </li>
+                            <li class="adv-item">
+                                <div class="adv-item__icon">
+                                    @@include('../blocks/check-mark.html')
+                                </div>
+                                <div class="adv-item__text">
+                                    Время ответа сервера в пределах 15 мс
+                                </div>
+                            </li>
+                        </ul>
+                    </div>  
+                </li>
+                <li class="data-item" data-id="#item-tab2">
+                    <div class="data-item__col">
+                        <h3 class="data-item__title">SFTP хранилище в Амстердаме</h3>
+                        <ul class="data-item__adv-list">
+                            <li class="adv-item">
+                                <div class="adv-item__icon">
+                                    @@include('../blocks/check-mark.html')
+                                </div>
+                                <div class="adv-item__text">
+                                    Поддержка протоколов SFTP и SSH 
+                                </div>
+                            </li>
+                            <li class="adv-item">
+                                <div class="adv-item__icon">
+                                    @@include('../blocks/check-mark.html')
+                                </div>
+                                <div class="adv-item__text">
+                                    Подключение по публичному SSH-ключу или паролю 
+                                </div>
+                            </li>
+                            <li class="adv-item">
+                                <div class="adv-item__icon">
+                                    @@include('../blocks/check-mark.html')
+                                </div>
+                                <div class="adv-item__text">
+                                    Гибкая синхронизация Rsync 
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="data-item__col">
+                        <h3 class="data-item__title">S3 хранилище в Амстердаме</h3>
+                        <ul class="data-item__adv-list">
+                            <li class="adv-item">
+                                <div class="adv-item__icon">
+                                    @@include('../blocks/check-mark.html')
+                                </div>
+                                <div class="adv-item__text">
+                                    Не нужно вносить изменения в S3-совместимое приложение 
+                                </div>
+                            </li>
+                            <li class="adv-item">
+                                <div class="adv-item__icon">
+                                    @@include('../blocks/check-mark.html')
+                                </div>
+                                <div class="adv-item__text">
+                                    Защита от случайного удаления, ошибок софта и&nbsp;вредоносных ботов 
+                                </div>
+                            </li>
+                            <li class="adv-item">
+                                <div class="adv-item__icon">
+                                    @@include('../blocks/check-mark.html')
+                                </div>
+                                <div class="adv-item__text">
+                                    Время ответа сервера в пределах 15 мс
+                                </div>
+                            </li>
+                        </ul>
+                    </div>  
+                </li>
+                <li class="data-item" data-id="#item-tab3">
+                    <div class="data-item__col">
+                        <h3 class="data-item__title">SFTP хранилище в Сингапуре</h3>
+                        <ul class="data-item__adv-list">
+                            <li class="adv-item">
+                                <div class="adv-item__icon">
+                                    @@include('../blocks/check-mark.html')
+                                </div>
+                                <div class="adv-item__text">
+                                    Поддержка протоколов SFTP и SSH 
+                                </div>
+                            </li>
+                            <li class="adv-item">
+                                <div class="adv-item__icon">
+                                    @@include('../blocks/check-mark.html')
+                                </div>
+                                <div class="adv-item__text">
+                                    Подключение по публичному SSH-ключу или паролю 
+                                </div>
+                            </li>
+                            <li class="adv-item">
+                                <div class="adv-item__icon">
+                                    @@include('../blocks/check-mark.html')
+                                </div>
+                                <div class="adv-item__text">
+                                    Гибкая синхронизация Rsync 
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="data-item__col">
+                        <h3 class="data-item__title">S3 хранилище в Сингапуре</h3>
+                        <ul class="data-item__adv-list">
+                            <li class="adv-item">
+                                <div class="adv-item__icon">
+                                    @@include('../blocks/check-mark.html')
+                                </div>
+                                <div class="adv-item__text">
+                                    Не нужно вносить изменения в S3-совместимое приложение 
+                                </div>
+                            </li>
+                            <li class="adv-item">
+                                <div class="adv-item__icon">
+                                    @@include('../blocks/check-mark.html')
+                                </div>
+                                <div class="adv-item__text">
+                                    Защита от случайного удаления, ошибок софта и&nbsp;вредоносных ботов 
+                                </div>
+                            </li>
+                            <li class="adv-item">
+                                <div class="adv-item__icon">
+                                    @@include('../blocks/check-mark.html')
+                                </div>
+                                <div class="adv-item__text">
+                                    Время ответа сервера в пределах 15 мс
+                                </div>
+                            </li>
+                        </ul>
+                    </div>  
+                </li>
+                <li class="data-item" data-id="#item-tab4">
+                    <div class="data-item__col">
+                        <h3 class="data-item__title">SFTP хранилище в Люксембурге</h3>
+                        <ul class="data-item__adv-list">
+                            <li class="adv-item">
+                                <div class="adv-item__icon">
+                                    @@include('../blocks/check-mark.html')
+                                </div>
+                                <div class="adv-item__text">
+                                    Поддержка протоколов SFTP и SSH 
+                                </div>
+                            </li>
+                            <li class="adv-item">
+                                <div class="adv-item__icon">
+                                    @@include('../blocks/check-mark.html')
+                                </div>
+                                <div class="adv-item__text">
+                                    Подключение по публичному SSH-ключу или паролю 
+                                </div>
+                            </li>
+                            <li class="adv-item">
+                                <div class="adv-item__icon">
+                                    @@include('../blocks/check-mark.html')
+                                </div>
+                                <div class="adv-item__text">
+                                    Гибкая синхронизация Rsync 
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="data-item__col">
+                        <h3 class="data-item__title">S3 хранилище в Люксембурге</h3>
+                        <ul class="data-item__adv-list">
+                            <li class="adv-item">
+                                <div class="adv-item__icon">
+                                    @@include('../blocks/check-mark.html')
+                                </div>
+                                <div class="adv-item__text">
+                                    Не нужно вносить изменения в S3-совместимое приложение 
+                                </div>
+                            </li>
+                            <li class="adv-item">
+                                <div class="adv-item__icon">
+                                    @@include('../blocks/check-mark.html')
+                                </div>
+                                <div class="adv-item__text">
+                                    Защита от случайного удаления, ошибок софта и&nbsp;вредоносных ботов 
+                                </div>
+                            </li>
+                            <li class="adv-item">
+                                <div class="adv-item__icon">
+                                    @@include('../blocks/check-mark.html')
+                                </div>
+                                <div class="adv-item__text">
+                                    Время ответа сервера в пределах 15 мс
+                                </div>
+                            </li>
+                        </ul>
+                    </div>  
+                </li>
+            </ul>
+            <button class="about-button">
+                Подробнее о хранилище
+            </button>
+        </div>
+    </div>
+
+    @@include("../blocks/append.html")
+    
+</body>
+</html>
